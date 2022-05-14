@@ -1,0 +1,87 @@
+.body {
+    background-color:#F0F8FF;
+    font-family: Creepster, cursive;
+}
+
+.welcome {
+    font-size: 2.5rem;
+}
+
+.presentation-text {
+    font-size:1.5rem;
+    text-align:justify;
+    color: black;
+}
+
+.divisor {
+    background-color: #4761f1;
+    font-size:1.6rem;
+}
+
+.project {
+    font-size: 1.1rem;
+}
+
+.strong-color {
+    color: black;
+}
+
+.hability {
+    font-size: 1.3rem;
+}
+
+.carrera {
+    font-size: 1.2rem;
+}
+
+.yearcarrera {
+    font-size: 1.1rem;
+}
+
+.copyright {
+    font-size: 1.7rem;
+}
+
+.presentacion .letra {
+    font-size:1.7rem;
+    text-align:justify;
+    color: black;
+    overflow: hidden;
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    animation:
+        typing 3.5s steps(20, end),
+        blink-caret .5s step-end infinite;
+}
+
+.presentacion .nombre {
+    font-size:2rem;
+    text-align:center;
+    color: black;
+    overflow: hidden;
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    animation:
+        typing 3.5s steps(20, end),
+        blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+    from  {
+        width: 0
+    }
+    to  {
+        width: 100%
+    }
+}
+
+@keyframes blink-caret {
+    from, to  {
+        border-color: transparent
+    }
+    50%   {
+        border-color: orange
+    }
+}
